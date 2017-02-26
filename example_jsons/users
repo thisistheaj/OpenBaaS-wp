@@ -1,0 +1,22 @@
+[{
+    "id": 1,
+    "name": "root",
+    "url": "",
+    "description": "",
+    "link": "http:\/\/52.20.195.195\/wordpress_wpbaas\/index.php\/author\/root\/",
+    "slug": "root",
+    "avatar_urls": {
+        "24": "http:\/\/1.gravatar.com\/avatar\/76fb17d203757b875c05b53b9c52f7a3?s=24&d=mm&r=g",
+        "48": "http:\/\/1.gravatar.com\/avatar\/76fb17d203757b875c05b53b9c52f7a3?s=48&d=mm&r=g",
+        "96": "http:\/\/1.gravatar.com\/avatar\/76fb17d203757b875c05b53b9c52f7a3?s=96&d=mm&r=g"
+    },
+    "meta": [],
+    "_links": {
+        "self": [{
+            "href": "http:\/\/52.20.195.195\/wordpress_wpbaas\/index.php\/wp-json\/wp\/v2\/users\/1"
+        }],
+        "collection": [{
+            "href": "http:\/\/52.20.195.195\/wordpress_wpbaas\/index.php\/wp-json\/wp\/v2\/users"
+        }]
+    }
+}]

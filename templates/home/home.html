@@ -5,3 +5,8 @@
         <td> {{post.content.rendered}} </td>
     </tr>
 </table>
+<input ng-model="post.title">
+<input ng-model="post.content">
+<button ng-click="createPost()">Add Post</button>
+{{post.title}}
+{{post.content}}

@@ -106,12 +106,13 @@
             })
         }
 
-        function addPost(title) {
+        function addPost(title,content) {
             return $http({
                     method: 'POST',
                     url: baseUrl + 'posts',
                     data: {
                         title: title,
+                        content:content,
                         status:"publish"
                     }
                 },

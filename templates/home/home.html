@@ -1,12 +1,29 @@
-<!--{{ data }}-->
-<table>
-    <tr ng-repeat="post in data">
-        <td> {{post.title.rendered}} </td>
-        <td> {{post.content.rendered}} </td>
-    </tr>
-</table>
-<input ng-model="post.title">
-<input ng-model="post.content">
-<button ng-click="createPost()">Add Post</button>
-{{post.title}}
-{{post.content}}
+<style>
+    body {
+        max-width: 960px;
+        margin: auto;
+        background: #eee;
+        font-family: "Helvetica", sans-serif;
+    }
+    h2,p{
+        background: rgba(255, 255, 255, 0.8);
+        box-shadow: #000 1px 1px 2px 1px;
+        padding: 20px;
+        margin: 20px;
+        color: rgba(0,0,0,0.8)
+    }
+    span>h2 {
+        margin-bottom: 0;
+    }
+    span>p{
+        margin-top: 0;
+    }
+
+</style>
+<h1>My Awesome Angular Wordpress Blog</h1>
+<span ng-repeat="post in data">
+        <h2> {{post.title.rendered}} </h2>
+        <p> {{post.content.rendered}} </p>
+    </span>
+<!--{{post.title}}-->
+<!--{{post.content}}-->

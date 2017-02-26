@@ -11,9 +11,15 @@
                 url: '/home',
                 templateUrl: 'templates/home/home.html',
                 controller: 'HomeCtrl'
+            })
+            .state('admin', {
+                name: 'admin',
+                url: '/admin',
+                templateUrl: 'templates/home/admin.html',
+                controller: 'AdminCtrl'
             });
 
-        $urlRouterProvider.otherwise('/home')
+        $urlRouterProvider.otherwise('/admin')
 
     }
 
